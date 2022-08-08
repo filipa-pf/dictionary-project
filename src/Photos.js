@@ -14,7 +14,7 @@ export default function Photos(props) {
                   src={photo.src.landscape}
                   key={index}
                   className="img-fluid pb-3"
-                  alt="related photo"
+                  alt="searched content"
                 ></img></a>
               </div>
             );
