@@ -45,8 +45,8 @@ function handlePexelsResponse(response){
   if (loaded) {
     return (
         <div className="Dictionary my-4">
-          <div className="row d-flex justify-content-center py-4">
-            <div className="col-8">
+          <div className="row d-flex justify-content-center py-4 px-0">
+            <div className="col-10">
               <section>
                 <form onSubmit={handleSubmit}>
                   <input
